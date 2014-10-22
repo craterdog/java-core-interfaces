@@ -1,6 +1,6 @@
 # Java Core Interfaces
 
-## The Gist of It
+## The Gist
 This project contains a set of Java core interaces that can be used to augment the common `Object`
 methods and basic language interfaces.
 
