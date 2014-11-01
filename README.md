@@ -1,6 +1,6 @@
 # Java Core Interfaces
 
-## The Gist
+## In a Nut Shell
 This project contains a set of Java core interaces that can be used to augment the common `Object`
 methods and basic language interfaces.
 
@@ -14,7 +14,7 @@ The following highlights the main core interfaces that this project provides:
 For more detail on this project click on the following links:
 
  * [javadocs](http://craterdog.github.io/java-core-interfaces/3.0/index.html)
- * [wiki](https://github.com/craterdog/java-core-interfaces/wiki/Crater-Dog-Technologies%E2%84%A2-Java-Core-Interfaces)
+ * [wiki](https://github.com/craterdog/java-core-interfaces/wiki)
  * [website](http://craterdog.com)
 
 ## Getting Started
