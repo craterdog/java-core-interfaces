@@ -13,6 +13,7 @@ The following highlights the main core interfaces that this project provides:
 For more detail on this project click on the following links:
  * [javadocs](http://craterdog.github.io/java-core-interfaces/3.0/index.html)
  * [wiki](https://github.com/craterdog/java-core-interfaces/wiki)
+ * [release notes](https://github.com/craterdog/java-core-interfaces/wiki/Release-Notes)
  * [website](http://craterdog.com)
 
 ## Getting Started
