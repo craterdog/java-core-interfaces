@@ -9,8 +9,6 @@
  ************************************************************************/
 package craterdog.core;
 
-import java.util.Iterator;
-
 
 /**
  * This interface should be implemented by classes that define a sequence of
@@ -41,18 +39,5 @@ public interface Sequential<E> extends Iterable<E> {
      * @return array An array containing the elements from the sequence.
      */
     E[] toArray();
-
-    /**
-     * This method fills the specified array with as many elements from the sequence as
-     * will fit in the array.  If the array is larger than the sequence, the remaining
-     * elements in the array remain unchanged.
-     *
-     * @param array An array to be used to hold the elements of the sequence.
-     */
-    @Deprecated
-    void toArray(E[] array);
-
-    @Override
-    Iterator<E> iterator();
 
 }
