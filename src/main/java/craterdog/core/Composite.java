@@ -18,6 +18,9 @@ package craterdog.core;
  */
 public interface Composite {
 
+    @Override
+    String toString();
+
     /**
      * This method is an extension of the <code>Object.toString()</code> method that
      * includes an indentation string that can be prepended to each line in a
