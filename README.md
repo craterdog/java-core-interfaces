@@ -1,22 +1,22 @@
 ![Java Core Interfaces](https://github.com/craterdog/java-core-interfaces/blob/master/docs/images/AppleCore.jpg)
 
-## Java Core Interfaces
+### Java Core Interfaces
 This project contains a set of Java core interaces that can be used to augment the common `Object`
 methods and basic language interfaces.
 
-## Highlighted Components
+### Highlighted Components
 The following highlights the main core interfaces that this project provides:
  * *Composite* - implemented by classes that define composite structures that require special formatting
  * *Sequential* - implemented by classes that allow their elements to be accessed sequentially
 
-## Quick Links
+### Quick Links
 For more detail on this project click on the following links:
  * [javadocs](http://craterdog.github.io/java-core-interfaces/latest/index.html)
  * [wiki](https://github.com/craterdog/java-core-interfaces/wiki)
  * [release notes](https://github.com/craterdog/java-core-interfaces/wiki/releases)
  * [website](http://craterdog.com)
 
-## Getting Started
+### Getting Started
 To get started using these interfaces, include the following dependency in your maven pom.xml file:
 
 ```xml
