@@ -24,7 +24,9 @@ public interface Sequential<E> extends Iterable<E> {
      *
      * @return Whether or not the sequence is empty.
      */
-    boolean isEmpty();
+    default boolean isEmpty() {
+        return getNumberOfElements() == 0;
+    }
 
     /**
      * This method returns the number of elements in the sequence.
