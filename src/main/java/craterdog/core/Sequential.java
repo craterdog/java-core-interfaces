@@ -19,13 +19,15 @@ package craterdog.core;
  */
 public interface Sequential<E> extends Iterable<E> {
 
+    Iterator<E> createIterator();
+
     /**
      * This method checks to see if the sequence is empty.
      *
      * @return Whether or not the sequence is empty.
      */
     default boolean isEmpty() {
-        return getNumberOfElements() == 0;
+        return getSize() == 0;
     }
 
     /**
@@ -33,7 +35,7 @@ public interface Sequential<E> extends Iterable<E> {
      *
      * @return The number of elements in the sequence.
      */
-    int getNumberOfElements();
+    int getSize();
 
     /**
      * This method returns an array containing the elements in the sequence.
