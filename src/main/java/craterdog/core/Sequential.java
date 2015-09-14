@@ -44,4 +44,9 @@ public interface Sequential<E> extends Iterable<E> {
      */
     E[] toArray();
 
+    @Override
+    default java.util.Iterator<E> iterator() {
+        return createIterator();
+    }
+
 }
