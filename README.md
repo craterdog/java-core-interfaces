@@ -6,8 +6,11 @@ methods and basic language interfaces.
 
 ### Highlighted Components
 The following highlights the main core interfaces that this project provides:
+ * *Primitive* - implemented by classes that define immutable primitive types
  * *Composite* - implemented by classes that define composite structures that require special formatting
  * *Sequential* - implemented by classes that allow their elements to be accessed sequentially
+ * *Iterator* - implemented by classes that can iterate through the elements in a sequence
+ * *Manipulator* - implemented by subclasses of Iterator that also allow elements to be inserted and removed from the sequence
 
 ### Quick Links
 For more detail on this project click on the following links:
