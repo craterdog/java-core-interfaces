@@ -50,11 +50,19 @@ public interface Sequential<E> extends Iterable<E> {
     }
 
     /**
-     * This method returns an empty copy of this sequence.
+     * This method returns an empty copy of the sequence.
      *
      * @param <S> The concrete type of the sequence.
      * @return An empty copy of the sequence.
      */
-    public abstract <S extends Sequential<E>> S emptyCopy();
+    <S extends Sequential<E>> S emptyCopy();
+
+    /**
+     * This method creates an exact copy of the sequence.
+     *
+     * @param <S> The concrete type of the sequence.
+     * @return An exact copy of the composite.
+     */
+    <S extends Sequential<E>> S copy();
 
 }
