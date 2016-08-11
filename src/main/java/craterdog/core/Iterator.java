@@ -95,7 +95,7 @@ public abstract class Iterator<E> implements java.util.Iterator<E> {
 
 
     @Override
-    public final void remove() {
+    public void remove() {
         throw new UnsupportedOperationException("Modifying a sequence with an iterator is not allowed.");
     }
 

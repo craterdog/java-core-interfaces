@@ -49,4 +49,12 @@ public interface Sequential<E> extends Iterable<E> {
         return createIterator();
     }
 
+    /**
+     * This method returns an empty copy of this sequence.
+     *
+     * @param <S> The concrete type of the sequence.
+     * @return An empty copy of the sequence.
+     */
+    public abstract <S extends Sequential<E>> S emptyCopy();
+
 }
