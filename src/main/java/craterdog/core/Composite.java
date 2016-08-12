@@ -11,19 +11,15 @@ package craterdog.core;
 
 
 /**
- * This abstract class provides implementations for the standard methods defined in the
- * <code>Object</code> class that can be used by all composite objects.  Since the
- * java.lang.Cloneable interface is essentially broken it has been disabled and replace
- * with a suitable copy() method.
+ * This interface provides adds methods to the standard methods defined in the
+ * <code>java.lang.Comparable</code> interface that are relevant to all composite objects.
+ * Since the <code>java.lang.Cloneable</code> interface is essentially broken it has been
+ * disabled and replaced with a parameterized copy() method.
  *
  * @author Derk Norton
  * @param <C> The concrete type of the composite object.
  */
-public abstract class Composite<C extends Composite<C>> implements Cloneable, Comparable<C> {
-
-    @Override
-    public abstract String toString();
-
+public interface Composite<C extends Composite<C>> extends Comparable<C> {
 
     /**
      * This method is an extension of the <code>Object.toString()</code> method that
@@ -33,35 +29,14 @@ public abstract class Composite<C extends Composite<C>> implements Cloneable, Co
      * @param indentation The string to be prepended to each line output.
      * @return The formatted composite object.
      */
-    public abstract String toString(String indentation);
-
-
-    @Override
-    public abstract boolean equals(Object object);
-
-
-    @Override
-    public abstract int compareTo(C object);
-
-
-    @Override
-    public int hashCode() {
-        return toString().hashCode();
-    }
-
+    String toString(String indentation);
 
     /**
      * This method creates an exact copy of a composite.
      *
-     * @param <T> The concrete type of the composite.
+     * @param <T>
      * @return An exact copy of the composite.
      */
-    public abstract <T extends Composite<C>> T copy();
-
-
-    @Override
-    protected final Object clone() throws CloneNotSupportedException {
-        throw new CloneNotSupportedException();
-    }
+    <T extends Composite<C>> T copy();
 
 }
