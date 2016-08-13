@@ -13,8 +13,8 @@ package craterdog.core;
 /**
  * This interface provides adds methods to the standard methods defined in the
  * <code>java.lang.Comparable</code> interface that are relevant to all composite objects.
- * Since the <code>java.lang.Cloneable</code> interface is essentially broken it has been
- * disabled and replaced with a parameterized copy() method.
+ * Since the <code>java.lang.Cloneable</code> interface is essentially broken it is not
+ * included and replaced with a parameterized copy() method.
  *
  * @author Derk Norton
  * @param <C> The concrete type of the composite object.
@@ -34,7 +34,7 @@ public interface Composite<C extends Composite<C>> extends Comparable<C> {
     /**
      * This method creates an exact copy of a composite.
      *
-     * @param <T>
+     * @param <T> The concrete type of the composite.
      * @return An exact copy of the composite.
      */
     <T extends Composite<C>> T copy();

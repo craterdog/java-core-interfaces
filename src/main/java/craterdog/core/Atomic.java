@@ -13,8 +13,8 @@ package craterdog.core;
 /**
  * This interface provides includes all the standard methods defined in the
  * <code>Comparable</code> interface that are relevant to all immutable atomic objects.
- * Since the <code>java.lang.Cloneable</code> interface is essentially broken it has been
- * disabled. There is no need to copy immutable objects.
+ * Since the <code>java.lang.Cloneable</code> interface is essentially broken it is not
+ * included. There is no need to copy immutable objects anyway.
  *
  * @author Derk Norton
  *
