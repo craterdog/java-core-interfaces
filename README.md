@@ -14,10 +14,10 @@ The following highlights the main core interfaces that this project provides:
 
 ### Quick Links
 For more detail on this project click on the following links:
- * [javadocs](http://craterdog.github.io/java-core-interfaces/latest/index.html)
+ * [javadocs](https://craterdog.github.io/java-core-interfaces/latest/index.html)
  * [wiki](https://github.com/craterdog/java-core-interfaces/wiki)
  * [release notes](https://github.com/craterdog/java-core-interfaces/wiki/releases)
- * [website](http://craterdog.com)
+ * [website](https://craterdog.com)
 
 ### Getting Started
 To get started using these interfaces, include the following dependency in your maven pom.xml file:
