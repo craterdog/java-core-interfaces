@@ -1,5 +1,7 @@
 ![Java Core Interfaces](https://github.com/craterdog/java-core-interfaces/blob/master/docs/images/AppleCore.jpg)
 
+# THIS REPOSITORY HAS BEEN ARCHIVED AND IS NO LONGER SUPPORTED
+
 ### Java Core Interfaces
 This project contains a set of Java core interaces that can be used to augment the common `Object`
 methods and basic language interfaces.
